@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+   
+body {
+    background: #000; /* Modifie l'arrière plan du site en noir*/
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: 2px solid white; */
+    width: 100%;
+
+}
+
+#header {
+    width: 100%;
+    height:150px;
+    /* border: 1px solid green; */
+    text-align: center;
+    position: relative;
+  }
+
+#bandeau {
+    background : repeating-linear-gradient(
+        -55deg,
+        #222 1px,
+        #222 2px,
+        #000 5px
+      );
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    width: 750px;
+    margin: auto;
+    z-index: 2;
+}
+
+#header img {
+    width: 100%;
+    margin: 0px auto;
+    position: static;
+    height: 110px;
+    opacity: 0.7;
+}
+
+.ong{
+    display: inline-block;
+    color: whitesmoke;
+    height: 35px;
+    font-size:14px;
+    font-weight:bold;
+    line-height:35px;
+    padding: 0px 12px;
+    z-index: 1;
+    /* border: 1px solid yellow; */
+
+  }
+
+  .ong a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .ong a:hover {
+    color: #fff;
+	text-decoration: none;
+}
+
+.inner-page {
+    position: static;
+}
+
+#tab {
+    position: static;
+    /* border: 1px solid greenyellow; */
+    margin: auto;
+    top: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #181818;
+    max-width: 1030px;
+    /* box-shadow: inset 0px 25px #404040; */
+}
+
+#row1 h1 {
+    text-align: right;
+    padding: 0px 20px 20px;
+    font-weight: normal;
+    font-size:24px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#tab #col1 {
+    background : repeating-linear-gradient(
+        -50deg,
+        #181818 0px 3px,
+        #303030 3px 4px
+      );
+    width: 180px;
+    min-height: fit-content;
+    height: 250px;
+    /* border: 1px solid purple; */
+    border-radius: 10px;
+    vertical-align: top;
+    padding: 15px 10px;
+    z-index: 2;
+}
+
+#col1 p{
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+#col1 h2 {
+    /* border:1px solid yellow; */
+    font-size:24px;
+    font-weight:normal;
+    margin:0px 0px 10px;
+}
+
+#col1 h3 {
+    text-decoration: underline;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#col1 h4 {
+    color:#CCCCCC;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+#archive {
+    border-top: 1.5px solid #CCCCCC;
+}
+
+#archive a {
+    color: gainsboro;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+
+#colEspaceMilieu {
+    /* border: 1px solid red; */
+    width: 20px;
+}
+
+#colEspaceFin {
+    /* border: 1px solid green; */
+    width: 100px;
+}
+
+#col2 {
+   /* border: 1px solid orange; 
+    padding: 20px 0px;
+    width: 572px;
+    height: 342px; */
+}
+
+#imgLogoIndex {
+    box-sizing: border-box;
+    width: 100%;
+    /*display: inline-block;*/
+    z-index: 2;
+}
+
+#imgLogoContact {
+    /* border:1px solid blue;*/
+}
+
+#imgLogoContact img {
+    /* border: 1px solid green; */
+    position: relative;
+    left: 10px;
+    z-index: 2;
+}
+
+#slogan p {
+    /* border: 1px solid yellow; */
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+    left: 220px;
+    top: -70px;
+
+}
+
+#openingHours p {
+    /* border: 1px solid red; */
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    right: -40px;
+}
+
+#col2 .aboutTxt{
+    position: relative;
+    top: 15px;
+}
+
+.aboutTxt {
+    /* border:1px solid red; */
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.aboutTxt h1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.aboutTxt h2{
+    text-align: left;
+    font-size: 20px;
+}
+
+#legendeServiceLab {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#row3 #serviceLab {
+    display: block;
+    margin: auto;
+    padding: 0px 0px 20px;
+}
+
+.legendesPhotosBas {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    /*alignement inline dans le HTML avec balises de style et espacement avec &nbsp */
+}
+
+.photosBas {
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding: 0px 94px;
+}
+
+
+#batteryStation {
+    margin-left: auto;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    padding: 10px 0px;
+    height: 100px;
+    /* border: 1px solid red; */
+    font-size:12px;
+    color:#d5d5d5;
+    text-align:center;
+}
+
+#shopNewLocation {
+    padding: 40px 60px;
+}
+
+#businessDetailsContact p {
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#row5 .illusPiedPageContact{
+    /* border:1px solid yellow; */
+    display: inline-block;
+    padding: 40px 20px;
+    clear:both;
+    /* Pour le <p>, les img ne sont pas concernées */
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 199, 238);
+
+}
+
+#tableurPrix {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 600px;
+}
+
+#tableurPrix .ligneTableurPrix {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+#tableurPrix .article {
+    vertical-align: top;
+    border: 1px solid black;
+    width: 500px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.aboutGallery {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 90px;
+}
+
+.aboutMaintenanceTips h2 a{
+    font-size: 22px;
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.regAndBcdTxt {
+    text-align: justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.regAndBcdTxt h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.regAndBcdTxt h2 {
+    font-size: 18px;
+}
+
+.questionFaq {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.answerFaq {
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.archiveTxt h1 {
+    color: red;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.archiveTxt h2 {
+    color: lightgray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.archiveTxt p{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgFooter img {
+    position: absolute;
+    left: 35%;
+    opacity: 0,3;
+    height: 65px;
+    width: 600px;
+}
+
+
+.textFooter p {
+    top: 11px;
+    position: relative;
+    z-index: 3;
+}
+
+
+   
